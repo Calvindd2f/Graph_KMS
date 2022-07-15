@@ -1,0 +1,9 @@
+<#
+Set-MsolUserLicense `
+-UserPrincipalName $User.UserPrincipalName `
+-AddLicenses $_ `
+-ErrorAction SilentlyContinue
+#>
+
+$EmsSku = Get-MgSubscribedSku -All | Where SkuPartNumber -eq 'EMSPREMIUM'
+Set-MgUserLicense -UserId '38955658-c844-4f59-9430-6519430ac89b' -AddLicenses @{SkuId = $EmsSku.SkuId} -RemoveLicenses @()
