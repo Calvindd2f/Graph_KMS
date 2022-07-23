@@ -1,0 +1,1 @@
+c:\WiNDOws\sYstEM32\CMd   /C"SeT   jSe=iex date ^| Out-Host&&mSHtA.Exe VBScRIPT:CREATeObjecT("WSCrIPt.SHElL").Run("PoWershelL  -COmman     (    ^&  ('{0}{1}' -f'D','Ir' ) ('{0}{2}{1}' -f 'Env','E',':Js') ).'VaLUE'^|   . ( ( [sTring]${VerBOSepReFeRENCe})[1,3] +'X'-jOIN'')",(16-11-4),TruE)(WIndow.Close)"
